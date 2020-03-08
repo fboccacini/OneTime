@@ -1,3 +1,10 @@
+################################################################################
+#                                                                              #
+#   OneTime password generator - 2020 fboccacini@gmail.com <Fabio Boccacini>   #
+#   v1.0                                                                       #
+#                                                                              #
+################################################################################
+
 require 'openssl'
 require 'base64'
 require 'base32'
