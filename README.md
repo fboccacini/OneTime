@@ -6,8 +6,7 @@ Usage
 
 totp = OneTime.new('secret-token').generate
 
-- Constructor's options:
-----------------------
+Constructor's options:
 
 - length: final password length (int). Default: 6
 - encryption: encryption algorithm, supports SSL supported algoritms (string). Default: 'SHA512'
@@ -15,8 +14,8 @@ totp = OneTime.new('secret-token').generate
 
 Example: totp = OneTime.new('secret-token', length: 10, step: 10, encryption: 'SHA1')
 
-- Methods:
-----------
+----------------------
+Methods:
 
  - generate(time = Time.now, length: self.length, step: self.step, encryption: self.encryption)
     *Generates a password with the given options and stores it in self.password*
